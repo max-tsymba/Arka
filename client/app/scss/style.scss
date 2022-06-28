@@ -1,0 +1,16 @@
+/*===== Configs =====*/
+@import './1-Fonts/fonts';
+@import './2-Settings/settings';
+@import './3-Elements/elements';
+@import './4-Tools/tools';
+
+body {
+  font-family: 'Roboto';
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 1.2;
+  color: palette(secondary, 100);
+}
+
+/*===== Components =====*/
+@import './5-Components/components';

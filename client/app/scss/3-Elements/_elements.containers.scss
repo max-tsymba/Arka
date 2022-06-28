@@ -1,0 +1,23 @@
+.container {
+  padding: 0 15px;
+  max-width: 1400px;
+  margin: 0 auto;
+}
+
+.c-bg {
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.flex {
+  display: flex;
+}
+
+.c-trs {
+  transition: all 0.3s;
+}
+
+.c-br {
+  margin: 20px 0;
+}
