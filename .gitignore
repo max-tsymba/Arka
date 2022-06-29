@@ -1,4 +1,10 @@
+# Styles Maps
 .sass-cache/
 *.css.map
 *.sass.map
 *.scss.map
+
+# Packages
+node_modules
+build/
+package-lock.json

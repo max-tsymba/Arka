@@ -1,0 +1,29 @@
+/**
+ *  Organize titles variables in a Sass Map.
+ */
+$headings: (
+  h1: (
+    font-weight: 400,
+    font-size: 14px,
+    line-height: 1.2,
+    font-family: 'Roboto',
+  ),
+);
+
+/**
+ *  Organize buttons variables in a Sass Map.
+ */
+$buttons: (
+  button: (
+    font-weight: 400,
+    font-size: 14px,
+    line-height: 1.2,
+    font-family: 'Roboto',
+  ),
+  a: (
+    font-weight: 400,
+    font-size: 14px,
+    line-height: 1.2,
+    font-family: 'Roboto',
+  ),
+);

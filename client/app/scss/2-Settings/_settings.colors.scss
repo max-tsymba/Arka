@@ -1,0 +1,45 @@
+/*-- Colors --*/
+$_color-primary: #ffffff;
+$_color-primary-100: #f2f2f2;
+$_color-primary-200: #ededed;
+$_color-primary-300: #a1a1a1;
+$_color-primary-400: #777777;
+
+$_color-secondary: #000000;
+$_color-secondary-100: #011f3a;
+
+$_color-blue: #3d5675;
+
+$_color-yellow: #ffca3a;
+$_color-yellow-100: #f2ae4d;
+
+$_color-green: #72bda3;
+$_color-green-100: #87c7b1;
+
+/**
+ *  Organize color variables in a Sass Map.
+ *  This way, the colors can be iterated, are more organized, and are more intuitive to reference.
+ */
+$palettes: (
+  primary: (
+    base: $_color-primary,
+    200: $_color-primary-200,
+    300: $_color-primary-300,
+    400: $_color-primary-400,
+  ),
+  secondary: (
+    base: $_color-secondary,
+    100: $_color-secondary-100,
+  ),
+  blue: (
+    base: $_color-blue,
+  ),
+  yellow: (
+    base: $_color-yellow,
+    100: $_color-yellow-100,
+  ),
+  green: (
+    base: $_color-green,
+    100: $_color-green-100,
+  ),
+);
