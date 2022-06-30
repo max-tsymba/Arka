@@ -1,0 +1,59 @@
+.hero {
+  &__top {
+    background-color: palette(yellow, 100);
+    height: 100vh;
+    display: flex;
+    align-items: center;
+  }
+
+  &__text {
+    max-width: 480px;
+    margin-left: 96px;
+  }
+
+  &__title {
+    font-size: 48px;
+    line-height: 120%;
+    color: palette(secondary, 100);
+    margin-bottom: 33px;
+  }
+
+  &__subtitle {
+    font-size: 15px;
+    line-height: 160%;
+    color: palette(secondary, 100);
+  }
+
+  &__link {
+    margin-top: 14px;
+  }
+
+  &__link-btn {
+    color: palette(primary);
+    background-color: palette(blue, base);
+    width: 228px;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    border: 1px solid palette(blue, base);
+    transition: all 0.3s;
+    &:hover {
+      color: palette(blue, base);
+      background-color: palette(primary);
+      border: 1px solid palette(primary);
+    }
+  }
+
+  &__image {
+    position: absolute;
+    right: 0;
+    top: 50%;
+    transform: translateY(-50%);
+  }
+
+  &__bot-inner {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 96px;
+    align-items: center;
+  }
+}
