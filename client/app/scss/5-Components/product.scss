@@ -1,0 +1,109 @@
+.product {
+  background-color: palette(primary, 200);
+  padding-bottom: 50px;
+  padding-top: 58px;
+
+  &__top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 58px;
+  }
+
+  &__title {
+    font-size: 32px;
+    line-height: 120%;
+    color: palette(secondary, 100);
+  }
+
+  &__browse-btn {
+    color: palette(primary);
+    background-color: palette(blue, base);
+    width: 248px;
+    padding-top: 14px;
+    padding-bottom: 14px;
+    border: 1px solid palette(blue, base);
+    transition: all 0.3s;
+    &:hover {
+      color: palette(blue, base);
+      background-color: palette(primary);
+      border: 1px solid palette(primary);
+    }
+  }
+
+  &__content {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 2px;
+  }
+
+  &__box {
+    padding: 5px 24px;
+    background-color: palette(primary);
+  }
+
+  &__box-img {
+    margin: 0 auto;
+  }
+
+  &__box-info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  &__box-text {
+    max-width: 208px;
+  }
+
+  &__box-title {
+    font-size: 18px;
+    line-height: 120%;
+    letter-spacing: 0.36px;
+    color: palette(secondary, 100);
+    font-weight: 500;
+    margin-bottom: 8px;
+  }
+
+  &__box-subtitle {
+    font-size: 15px;
+    line-height: 150%;
+    color: palette(primary, 400);
+  }
+
+  &__box-price {
+    font-size: 15px;
+    line-height: 150%;
+    color: palette(primary, 300);
+  }
+
+  &__bot {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 46px;
+  }
+
+  &__subtitle {
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 170%;
+    color: palette(primary, 300);
+    margin-right: 16px;
+  }
+
+  &__shop-btn {
+    color: palette(blue, base);
+    background-color: palette(primary);
+    width: 158px;
+    padding-top: 14px;
+    padding-bottom: 14px;
+    border: 1px solid palette(primary);
+    transition: all 0.3s;
+    &:hover {
+      color: palette(primary);
+      background-color: palette(blue, base);
+      border: 1px solid palette(blue, base);
+    }
+  }
+}
