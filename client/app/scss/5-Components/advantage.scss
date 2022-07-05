@@ -2,7 +2,10 @@
   background-color: palette(primary, 200);
 
   &__inner {
-    padding: 88px 162px 140px;
+    padding-top: 88px;
+    padding-bottom: 140px;
+    max-width: 1200px;
+    margin: 0 auto;
   }
 
   &__title {
@@ -20,6 +23,7 @@
 
   &__box-img {
     margin: 0 auto;
+    margin-bottom: 54px;
   }
 
   &__box-text {
