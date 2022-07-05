@@ -4,6 +4,8 @@
 
   &__inner {
     background-color: palette(green, base);
+    max-width: 1200px;
+    margin: 0 auto;
   }
 
   &__top {
