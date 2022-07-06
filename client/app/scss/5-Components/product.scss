@@ -3,6 +3,11 @@
   padding-bottom: 50px;
   padding-top: 58px;
 
+  &__inner {
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+
   &__top {
     display: flex;
     justify-content: space-between;
