@@ -6,11 +6,12 @@
     background-color: palette(green, base);
     padding-bottom: 88px;
     padding-top: 88px;
+    max-width: 1200px;
+    margin: 0 auto;
   }
 
   &__top {
     text-align: center;
-    //!!!
     margin-bottom: 46px;
   }
 
@@ -25,7 +26,7 @@
     display: flex;
     justify-content: space-between;
     max-width: 1236px;
-    margin: 0 auto; //!!!
+    margin: 0 auto;
     padding: 0 20px;
   }
 
@@ -57,7 +58,6 @@
   &__bot {
     text-align: center;
     margin-top: 74px;
-    // !!!
   }
 
   &__link-btn {
