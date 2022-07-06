@@ -4,13 +4,14 @@
 
   &__inner {
     background-color: palette(green, base);
+    padding-bottom: 88px;
+    padding-top: 88px;
     max-width: 1200px;
     margin: 0 auto;
   }
 
   &__top {
     text-align: center;
-    padding-top: 88px; //!!!
     margin-bottom: 46px;
   }
 
@@ -24,7 +25,9 @@
   &__content {
     display: flex;
     justify-content: space-between;
-    margin: 0 102px; //!!!
+    max-width: 1236px;
+    margin: 0 auto;
+    padding: 0 20px;
   }
 
   &__box-img {
@@ -55,7 +58,6 @@
   &__bot {
     text-align: center;
     margin-top: 74px;
-    padding-bottom: 88px; // !!!
   }
 
   &__link-btn {
@@ -71,7 +73,5 @@
       background-color: palette(primary);
       border: 1px solid palette(primary);
     }
-
-    // max-width 100 - ?
   }
 }
