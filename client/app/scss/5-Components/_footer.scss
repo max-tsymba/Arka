@@ -1,0 +1,87 @@
+.footer {
+  background-color: palette(primary, 100);
+  padding-top: 60px;
+  padding-bottom: 76px;
+
+  &__inner {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+
+  &__menu {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 -46px;
+  }
+
+  &__menu-item {
+    margin: 0 46px;
+  }
+
+  &__menu-list {
+    margin: -12px 0;
+  }
+
+  &__menu-li {
+    margin: 12px 0;
+  }
+
+  &__menu-link {
+    font-size: 15px;
+    line-height: 1.2;
+    color: palette(blue, base);
+  }
+
+  &__menu-social {
+    padding-top: 17px;
+  }
+
+  &__social {
+    display: flex;
+    margin: 0 -5px;
+  }
+
+  &__social-item {
+    margin: 0 5px;
+  }
+
+  &__contacts-heading {
+    margin-bottom: 12px;
+  }
+
+  &__contacts-text {
+    font-size: 15px;
+    line-height: 1.2;
+    color: palette(blue, base);
+  }
+
+  &__form-input {
+    width: 280px;
+    max-width: 100%;
+    border: none;
+    border-radius: 34px;
+    font-size: 15px;
+    line-height: 1.2;
+    padding: 10px 0 10px 18px;
+    display: block;
+    margin-bottom: 12px;
+  }
+
+  &__form-btn {
+    color: palette(primary);
+    background-color: palette(blue, base);
+    width: 188px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    border: 1px solid palette(blue, base);
+    transition: all 0.3s;
+    &:hover {
+      color: palette(blue, base);
+      background-color: palette(primary);
+      border: 1px solid palette(primary);
+    }
+  }
+}
